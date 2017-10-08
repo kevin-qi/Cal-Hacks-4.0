@@ -8,5 +8,8 @@ page_html = page_client.read()
 page_client.close()
 page_soup = soup(page_html, "html.parser")
 
-containers = page_soup.find_all("div", {"class" : "packages-os-wrap"})
-print(len(containers))
+flights = page_soup.find_all("div", {"class" : "packages-os-wrap"})
+
+prices = page_soup.find_all("div", {"class" : "packages-os-top"})
+
+print(len(flights))
