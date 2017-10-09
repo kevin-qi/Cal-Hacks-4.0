@@ -11,3 +11,6 @@ Selenium:
 pip install selenium
 chromedriver:
 http://selenium-python.readthedocs.io/installation.html
+
+To Run:
+python scraper.py
