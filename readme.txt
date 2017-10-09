@@ -1,7 +1,13 @@
-Construct the URL of the search results from Expedia- Here is one for the available flights listed from New York to Miami –https://www.expedia.com/Flights-Search?trip=oneway&leg1=from:New%20York,%20NY%20(NYC-All%20Airports),to:Miami,%20Florida,departure:04/01/2017TANYT&passengers=children:0,adults:1,seniors:0,infantinlap:Y&mode=search
+﻿scraper.py scrapes flight data from Expedia with BeautifulSoup4 and Selenium
 
-Download HTML of the search result page using Python Requests.
+Selenium simulates user browsing which allows javascript to be run (It literally opens a chrome browser)
 
-Parse the page using LXML – LXML lets you navigate the HTML Tree Structure using Xpaths. We have predefined the XPaths for the details we need in the code.
+Bs4 then scrapes all the data and prints it out in some format
 
-Save the data to a JSON file. You can later modify this to write to a database.
+Note: Its really fucking slow :(
+
+Requirements:
+Selenium:
+pip install selenium
+chromedriver:
+http://selenium-python.readthedocs.io/installation.html
