@@ -4,7 +4,6 @@ Selenium simulates user browsing which allows javascript to be run (It literally
 
 Bs4 then scrapes all the data and prints it out in some format
 
-Note: Its really fucking slow :(
 
 Requirements:
 Selenium:
